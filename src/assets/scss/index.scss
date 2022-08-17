@@ -1,0 +1,52 @@
+@import 'spacer.scss';
+@import 'model.scss';
+
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
+  .align-center {
+    align-items: center;
+  }
+  .justify-around {
+    justify-content: space-around;
+  }
+  .justify-end {
+    justify-content: flex-end;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  .font-20 {
+    font-size: 20px;
+  }
+  .font-24 {
+    font-size: 24px;
+  }
+  .text-bold {
+    font-weight: bold;
+  }
+  .full-width {
+    width: 100%;
+  }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+ .border-bottom{
+  border-bottom:1px solid rgb(221,221,221)  
+ }
+ .error-message {
+    font-size: 12px;
+    color: red;
+  }
+  .text-primary{
+    color:#0050b3
+  }
